@@ -20,3 +20,7 @@ step("Close browser", async () => {
 step("Visit <url>", async (url) => {
     await goto(url);
 });
+
+step("Message <msg>", async (msg) => {
+    console.log(msg);
+})

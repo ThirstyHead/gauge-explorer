@@ -22,11 +22,11 @@ Accessibility page.
 
 ## DHS (Department of Homeland Security)
 * Visit "https://www.dhs.gov/"
-* Visit "https://www.dhs.gov/accessibility"
+* Message "TIMEOUT: Visit \"https://www.dhs.gov/accessibility\""
 
 ## DNFSB (Defense Nuclear Facilities Safety Board)
 * Visit "https://www.dnfsb.gov/"
-* Visit "https://www.dhs.gov/accessibility"
+* Message "No Accessibility page"
 
 _____
 [comment]: # (These teardown steps will be run after each scenario above)
