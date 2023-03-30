@@ -28,6 +28,35 @@ Accessibility page.
 * Visit "https://www.dnfsb.gov/"
 * Message "No Accessibility page"
 
+## DOC (Department of Commerce)
+* Visit "https://commerce.gov/"
+* Visit "https://www.commerce.gov/about/policies/accessibility"
+
+## DOD (Department of Defense)
+* Visit "https://www.defense.gov/"
+* Visit "https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx"
+
+## DOE (Department of Energy)
+* Visit "https://www.energy.gov/"
+* Visit "https://www.energy.gov/cio/accessibility-standard-statement"
+
+## DOI (Department of Interior)
+* Visit "https://www.doi.gov/"
+* Visit "https://doi.gov/accessibility"
+
+## DOJ (Department of Justice)
+* Visit "https://www.justice.gov/"
+* Visit "https://www.justice.gov/accessibility/accessibility-information"
+
+## DOL (Department of Labor)
+* Visit "https://www.dol.gov/"
+* Message "TIMEOUT: Visit \"https://www.dol.gov/general/aboutdol/accessibility\""
+
+## DOT (Department of Transportation)
+* Visit "https://www.transportation.gov/"
+* Message "Visit \"https://www.transportation.gov/accessibility\""
+
+
 _____
 [comment]: # (These teardown steps will be run after each scenario above)
 * Close browser
