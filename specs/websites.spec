@@ -9,7 +9,7 @@ Accessibility page.
 * Open browser
 
 ## CFPB (Consumer Financial Protection Bureau)
-* Visit "https://www.cfpb.gov/"
+* Visit "https://www.consumerfinance.gov/"
 * Visit "https://www.consumerfinance.gov/accessibility/"
 
 ## CNCS (AmeriCorps, formerly Corporation for National and Community Service)
@@ -29,7 +29,7 @@ Accessibility page.
 * Message "No Accessibility page"
 
 ## DOC (Department of Commerce)
-* Visit "https://commerce.gov/"
+* Visit "https://www.commerce.gov/"
 * Visit "https://www.commerce.gov/about/policies/accessibility"
 
 ## DOD (Department of Defense)
@@ -42,7 +42,7 @@ Accessibility page.
 
 ## DOI (Department of Interior)
 * Visit "https://www.doi.gov/"
-* Visit "https://doi.gov/accessibility"
+* Visit "https://www.doi.gov/accessibility"
 
 ## DOJ (Department of Justice)
 * Visit "https://www.justice.gov/"
