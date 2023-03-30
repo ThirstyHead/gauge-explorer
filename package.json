@@ -1,11 +1,10 @@
 {
-  "name": "gauge-explorer",
-  "version": "0.1.0",
-  "description": "Exploring the capabilities of Gauge",
-  "main": "index.js",
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gauge run specs/"
   },
-  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
-  "license": "CC-BY-4.0"
+  "dependencies": {
+    "taiko": "latest"
+  }
 }
