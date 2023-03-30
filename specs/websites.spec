@@ -56,6 +56,27 @@ Accessibility page.
 * Visit "https://www.transportation.gov/"
 * Message "Visit \"https://www.transportation.gov/accessibility\""
 
+## EAC (Election Assistance Commission)
+* Visit "https://www.eac.gov/"
+* Visit "https://www.eac.gov/main/privacy-statement"
+
+## ED (Department of Education)
+* Visit "https://www.ed.gov/"
+* Visit "https://www2.ed.gov/notices/accessibility/index.html"
+
+## EEOC (Equal Employment Opportunity Commission)
+* Visit "https://www.eeoc.gov/"
+* Visit "https://www.eeoc.gov/accessibility"
+
+## EOP (Whitehouse, AKA Executive Office of the President)
+* Visit "https://www.whitehouse.gov/"
+* Visit "https://www.whitehouse.gov/accessibility/"
+
+## EPA (Environmental Protection Agency)
+* Visit "https://www.epa.gov/"
+* Visit "https://www.epa.gov/accessibility/epa-accessibility-statement"
+
+
 
 _____
 [comment]: # (These teardown steps will be run after each scenario above)
