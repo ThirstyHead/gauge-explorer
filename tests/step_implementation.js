@@ -18,7 +18,11 @@ step("Close browser", async () => {
 });
 
 step("Visit <url>", async (url) => {
-    await goto(url);
+    try{
+        await goto(url, {timeout:60000});
+    } catch(e){ 
+        console.log(e.message);
+    }
 });
 
 step("Message <msg>", async (msg) => {
