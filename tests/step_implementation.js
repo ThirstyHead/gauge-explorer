@@ -40,11 +40,13 @@ step("Lighthouse report <filename>", async (filename) => {
                        .webSocketUrl.split('/devtools/')[0]
                        .replace('ws://', '')
                        .split(':')[1];
-    const options = {output: 'html', onlyCategories: ['accessibility'], port, logLevel:'error'};
+    const options = {output: ['html', 'json', 'csv'], onlyCategories: ['accessibility'], port, logLevel:'error'};
     let runnerResult = await lighthouse(url, options);
     fs.mkdirSync(`${reportDir}`, { recursive: true });
-    fs.writeFileSync(`${reportDir}/${filename}.html`, runnerResult.report);
-    console.log('Report written for', runnerResult.lhr.finalUrl);
+    fs.writeFileSync(`${reportDir}/${filename}.html`, runnerResult.report[0]);
+    fs.writeFileSync(`${reportDir}/${filename}.json`, runnerResult.report[1]);
+    fs.writeFileSync(`${reportDir}/${filename}.csv`, runnerResult.report[2]);
+    console.log('Report(s) written for', runnerResult.lhr.mainDocumentUrl);
     console.log('Accessibility score was', runnerResult.lhr.categories.accessibility.score * 100);
 });
 
