@@ -196,6 +196,46 @@ Accessibility page.
 * Visit "https://www.ssa.gov/"
 * Visit "https://www.ssa.gov/accessibility/"
 
+## USAB (US Activity Board)
+* Visit "https://www.access-board.gov/"
+* Visit "https://www.access-board.gov/about/policy/accessibility.html"
+
+## USAID (US Agency for International Development)
+* Visit "https://www.usaid.gov/"
+* Visit "https://www.usaid.gov/accessibility"
+
+## USDA (US Department of Agriculture)
+* Visit "https://www.usda.gov/"
+* Visit "https://www.usda.gov/accessibility-statement"
+
+## USDC-NI (US District Court - Northern District of Iowa)
+* Visit "https://www.iand.uscourts.gov/"
+* Message "No Accessibility Page"
+
+## USDC-WDW (US District Court - Western District of Wisconsin)
+* Visit "https://www.wiwd.uscourts.gov/"
+* Message "No Accessibility Page"
+
+## USDOS (US Department of State)
+* Visit "https://www.state.gov/"
+* Visit "https://www.state.gov/section-508-accessibility-statement/"
+
+## USDT (US Department of the Treasury)
+* Visit "https://home.treasury.gov/"
+* Visit "https://home.treasury.gov/utility/accessibility/web-accessibility"
+
+## USITC (US International Trade Commission)
+* Visit "https://www.usitc.gov/"
+* Visit "https://www.usitc.gov/accessibility.htm"
+
+## USPS (US Postal Service)
+* Visit "https://www.usps.com/"
+* Visit "https://about.usps.com/who/legal/section-508/welcome.htm"
+
+## VA (US Department of Veterans Affairs)
+* Visit "https://www.va.gov/"
+* Visit "https://www.section508.va.gov/"
+
 _____
 [comment]: # (These teardown steps will be run after each scenario above)
 * Close browser
