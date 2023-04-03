@@ -1,10 +1,14 @@
 {
-  "name": "gauge-taiko-template",
-  "description": "Starter template for writing JavaScript tests for Gauge",
+  "name": "gauge-explorer",
+  "description": "Accessibility testing with Gauge, Taiko, and Lighthouse",
+  "type": "module",
   "scripts": {
     "test": "gauge run specs/"
   },
   "dependencies": {
     "taiko": "latest"
+  },
+  "devDependencies": {
+    "lighthouse": "^10.1.0"
   }
 }
