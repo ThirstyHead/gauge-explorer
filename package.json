@@ -1,7 +1,6 @@
 {
   "name": "gauge-explorer",
   "description": "Accessibility testing with Gauge, Taiko, and Lighthouse",
-  "type": "module",
   "scripts": {
     "test": "gauge run specs/"
   },

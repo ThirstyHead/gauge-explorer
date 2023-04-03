@@ -1,16 +1,16 @@
 /* globals gauge*/
 "use strict";
-//import lighthouse from 'lighthouse';
-// const lighthouse = require('lighthouse');
-
 const path = require('path');
 const {
     openBrowser,
     closeBrowser,
-    goto
+    goto,
+    currentURL,
+    client
 } = require('taiko');
 const assert = require("assert");
 const fs = require('fs');
+const lighthouse = require('lighthouse/core/index.cjs');
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
 
 step("Open browser", async () => {
@@ -33,16 +33,18 @@ step("Message <msg>", async (msg) => {
     console.log(msg);
 });
 
-// step("Lighthouse report <filename>", async (filename) => {
-//     let url = await currentURL();
-//     const port = await client()
-//                        .webSocketUrl.split('/devtools/')[0]
-//                        .replace('ws://', '')
-//                        .split(':')[1];
-//     const options = {output: 'html', onlyCategories: ['accessibility'], port, logLevel:'error'};
-//     let runnerResult = await lighthouse(url, options);
-//     fs.writeFileSync(`${filename}.html`, runnerResult.report);
-//     console.log('Report written for', runnerResult.lhr.finalUrl);
-//     console.log('Accessibility score was', runnerResult.lhr.categories.accessibility.score * 100);
-// });
+step("Lighthouse report <filename>", async (filename) => {
+    let reportDir = "./reports/lighthouse";
+    let url = await currentURL();
+    const port = await client()
+                       .webSocketUrl.split('/devtools/')[0]
+                       .replace('ws://', '')
+                       .split(':')[1];
+    const options = {output: 'html', onlyCategories: ['accessibility'], port, logLevel:'error'};
+    let runnerResult = await lighthouse(url, options);
+    fs.mkdirSync(`${reportDir}`, { recursive: true });
+    fs.writeFileSync(`${reportDir}/${filename}.html`, runnerResult.report);
+    console.log('Report written for', runnerResult.lhr.finalUrl);
+    console.log('Accessibility score was', runnerResult.lhr.categories.accessibility.score * 100);
+});
 

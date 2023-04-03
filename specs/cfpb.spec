@@ -9,10 +9,11 @@ accessibility page.
 
 ## Home page
 * Visit "https://www.consumerfinance.gov/"
-
+* Lighthouse report "cfpb-home-lighthouse"
 
 ## Accessibility page
 * Visit "https://www.consumerfinance.gov/accessibility/"
+* Lighthouse report "cfpb-accessibility-lighthouse"
 
 _____
 [comment]: # (These teardown steps will be run after each scenario above)
