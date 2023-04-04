@@ -49,4 +49,3 @@ step("Lighthouse report <filename>", async (filename) => {
     console.log('Report(s) written for', runnerResult.lhr.mainDocumentUrl);
     console.log('Accessibility score was', runnerResult.lhr.categories.accessibility.score * 100);
 });
-
