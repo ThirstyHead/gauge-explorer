@@ -2,7 +2,7 @@
   "name": "gauge-explorer",
   "description": "Accessibility testing with Gauge, Taiko, and Lighthouse",
   "scripts": {
-    "test": "gauge run specs/"
+    "test": "gauge run --parallel specs/"
   },
   "dependencies": {
     "taiko": "latest"
